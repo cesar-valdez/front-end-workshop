@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should render Footer component 1`] = `
+<footer
+  className="yta_Footer"
+>
+  <nav>
+    <h2
+      className="yta_u-onlyRead"
+    >
+      Redes sociales
+    </h2>
+    <ul
+      className="yta_Footer-socialNetwork"
+    >
+      <NetworkSocial
+        name="facebook"
+      />
+      <NetworkSocial
+        name="twitter"
+      />
+      <NetworkSocial
+        name="instagram"
+      />
+      <NetworkSocial
+        name="youtube"
+      />
+    </ul>
+  </nav>
+  <p
+    className="yta_Footer-copyright"
+  >
+    Copyright © 2018 Yo te adopto.
+  </p>
+</footer>
+`;
