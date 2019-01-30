@@ -15,15 +15,19 @@ exports[`Footer should render Footer component 1`] = `
     >
       <NetworkSocial
         name="facebook"
+        url="www.facebook.com"
       />
       <NetworkSocial
         name="twitter"
+        url="www.twitter.com"
       />
       <NetworkSocial
         name="instagram"
+        url="www.instagram.com"
       />
       <NetworkSocial
         name="youtube"
+        url="www.youtube.com"
       />
     </ul>
   </nav>

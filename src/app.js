@@ -5,7 +5,8 @@ import './scss/app';
 
 import Header from './components/header';
 import Footer from './components/footer';
+import Cover from './components/cover';
 
-const App = () => <React.Fragment><Header/><Footer/></React.Fragment>;
+const App = () => <React.Fragment><Header/><Cover /><Footer/></React.Fragment>;
 
 ReactDOM.render(<App />, document.getElementById('root'));
