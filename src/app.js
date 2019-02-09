@@ -1,12 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import './scss/app';
+import './scss/app.scss';
 
 import Header from './components/header';
-import Footer from './components/footer';
 import Cover from './components/cover';
+import ListPets from './components/list-pets';
+import Pets from './components/pet-card/PETS';
+import Footer from './components/footer';
 
-const App = () => <React.Fragment><Header/><Cover /><Footer/></React.Fragment>;
+const App = () => (
+  <React.Fragment>
+    <Header />
+    <Cover />
+    <ListPets pets={Pets} />
+    <Footer />
+  </React.Fragment>
+);
 
 ReactDOM.render(<App />, document.getElementById('root'));
