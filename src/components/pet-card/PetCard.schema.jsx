@@ -5,6 +5,6 @@ const PetCardSchema = PropTypes.shape({
   img: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   details: PropTypes.string.isRequired,
-});
+}).isRequired;
 
 export default PetCardSchema;
